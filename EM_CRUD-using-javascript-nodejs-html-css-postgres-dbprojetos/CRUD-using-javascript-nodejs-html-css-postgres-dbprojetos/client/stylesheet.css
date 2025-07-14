@@ -34,6 +34,8 @@ input{
 #add-btn{
   width: 45%;
   margin-right: 30%;
+  margin-left: 28%;
+  margin-top:-6%;
 }
 
 button{
@@ -65,6 +67,13 @@ label{
   margin-bottom: 2%;
 }
 
+#search-btn{
+  width: 45%;
+  margin-right: 30%;
+  margin-left: 28%;
+  margin-top: 1%;
+}
+
 label, input{
   padding: 10px; 
   display: block;
@@ -94,14 +103,16 @@ td {
 
 .modal {
   display: none; 
-  position: inherit;
+  flex-direction: column;
+  position: fixed;
   z-index: 1;
   left: 0; 
   top: 0;
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.4);
+  color: #73022bce;
+  font-size: large;
 }
 
 .modal-content {
@@ -111,3 +122,7 @@ td {
   border: 1px solid #73022bce;
   width: 80%;
 }
+
+#botoes-modal{
+  display: flex;
+} 
